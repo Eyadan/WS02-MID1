@@ -1,0 +1,90 @@
+html, body {
+    margin: 0;
+    background-color: #bbe7df;
+}
+
+
+header {
+    background-image: url('scene3.jpg');
+    background-color: #e1a8b3;
+    padding: 40px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 90px;
+    color: #A076F9;
+    font-family: Georgia, serif;
+    text-shadow: 0 0 20px #1b034b;
+}
+
+header img {
+    border-radius: 250px;
+    width: 400px;
+    border: 10px solid #E0E2EB;
+    box-shadow: 0 0 20px rgb(207, 157, 147);
+}
+
+
+.content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.content img.Violeta {
+    border-radius: 20px;
+    max-width: 90%;
+}
+
+.content h2 {
+    text-shadow: 0 0 20px #A076F9;
+    font-family: 'Segoe UI';
+}
+
+.content p.cap3on {
+    font-size: 16px;
+    color: #333333;
+    font-style: italic;
+}
+
+
+ul, ul li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    text-align: left;
+    font-size: large;
+    color: #333333;
+}
+
+
+a {
+    color: #333333;
+    text-decoration: none;
+}
+
+
+h2, p, li {
+    font-size: large;
+    color: #333333;
+}
+
+
+footer {
+    margin-top: 20px;
+    padding: 40px 20px;
+    background-color: #9f384b;
+}
+
+footer ul {
+    text-align: center;
+}
+
+footer ul li {
+    display: inline-block;
+    margin: 0 5px;
+}
