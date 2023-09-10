@@ -1,0 +1,96 @@
+-html, body {
+    margin: 0;
+    background-color: #93ABCF;
+}
+
+header {
+    background-image: url('scene3.jpg');
+    background-color: #FFF5D0;
+    padding: 40px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 90px;
+    color: #A076F9;
+    font-family: Poppins, sans-serif;
+    text-shadow: 0 0 20px #000000;
+}
+
+header img { 
+    border-radius: 250px;
+    width: 400px;
+    border: 10px solid #E0E2EB;
+    box-shadow: 0 0 20px #93ABCF;
+}
+
+
+.content {
+    border-radius: 40px;
+    background-color: #FFF5D0;  
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.content img.Violeta {
+    border-radius: 20px;
+    max-width: 100%;
+}
+
+.content h2 {
+    text-shadow: 0 0 20px #A076F9;
+    font-family: Poppins, sans-serif;
+}
+
+.content p.cap3on {
+    font-size: 16px;
+    color: #333333;
+    font-style: italic;
+}
+
+
+ul, ul li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    text-align: left;
+    font-family: 'Rubik', sans-serif;
+    font-size: large;
+    color: #333333;
+    padding: 5px;
+}
+
+
+a {
+    color: #333333;
+    font-family: 'Rubik', sans-serif;
+    text-decoration: none;
+}
+
+
+h2, p, li {
+    font-size: large;
+    padding: 3px;
+    font-family: 'Rubik', sans-serif;
+    color: #333333;
+}
+
+
+footer {
+    margin-top: 20px;
+    padding: 40px 20px;
+    background-color:rgb(233,233,233);
+}
+
+footer ul {
+    text-align: center;
+}
+
+footer ul li {
+    display: inline-block;
+    margin: 0 5px;
+}
