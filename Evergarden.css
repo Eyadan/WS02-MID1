@@ -1,0 +1,133 @@
+
+html, body {
+    background-image: url('Scene69.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+ 	background-attachment: fixed;
+    margin: 0;
+    background-color: #93ABCF;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url('scene3.jpg');
+    background-color: #FFF5D0;
+    padding: 120px 0; 
+    text-align: center;
+}
+
+.headerviolet h2{
+    font-size: 3vw;
+    color: #F3F3F2;
+    font-family: 'Lugrasimo', cursive;
+    text-shadow: 0 0 20px #000000;
+    position: relative;
+    top: -50px;
+    
+
+}
+
+header h1 {
+    font-size: 6vw;
+    color: #F3F3F2;
+    font-family: 'Lugrasimo', cursive;
+    text-shadow: 0 0 20px #000000;
+}
+
+header img { 
+    border-radius: 50%;
+    max-width: 400px; /* Responsive image width */
+    border: 5px solid #E0E2EB;
+    box-shadow: 0 0 20px #93ABCF;
+    transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+header img:hover {
+    transform: scale(1.1); 
+}
+
+.content {
+    border-radius: 40px;
+    background-color: #F3F3F2;  
+    max-width: 1000px;
+    margin: 65px auto;
+    padding: 0 1%; 
+}
+
+.content img.Violeta{
+    border-radius: 20px;
+    width: 90%;
+    margin-left:50px;
+    border: 5px solid #93ABCF;
+}
+
+.content h2 {
+    text-shadow: 0 0 20px #A076F9;
+    font-family: Poppins, sans-serif;
+}
+
+
+.content p.cap3on {
+    font-size: 16px;
+    color: #333333;
+    font-style: italic;
+}
+
+ul, ul li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    text-align: left;
+    font-family: 'Rubik', sans-serif;
+    font-size: large;
+    color: #333333;
+    padding: 5px;
+}
+
+a {
+    color: #970f0f;
+    font-family: 'Rubik', sans-serif;
+    text-decoration: none;
+}
+
+h2, p, li {
+    font-size: large;
+    padding: 3px;
+    font-family: 'Rubik', sans-serif;
+    color: #333333;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: rgb(233, 233, 233);
+}
+
+footer ul {
+    text-align: center;
+}
+
+footer ul li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 8vw;
+    }
+
+    header img {
+        max-width: 80%;
+    }
+
+    .content {
+        padding: 0 10%;
+    }
+}
