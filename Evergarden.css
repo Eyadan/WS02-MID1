@@ -102,7 +102,7 @@ ul li {
 
     .character-list li {
         display: inline-block;
-        margin-right: 50px;
+        margin-right: 45 px;
         text-align: center; /* Center the content horizontally within the list items */
     }
 
