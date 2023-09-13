@@ -147,7 +147,8 @@ footer ul li {
     top: 0;
     left: 0;
     z-index: 9999;
-    animation: fadeOut 4s forwards, enableScroll 4s forwards; 
+    animation: fadeOut 4s forwards, enableScroll 4s forwards;
+    pointer-events: none;
 }
 
 .intro-text {
